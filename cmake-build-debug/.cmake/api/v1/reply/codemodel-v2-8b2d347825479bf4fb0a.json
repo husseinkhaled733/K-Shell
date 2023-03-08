@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/exception/CLionProjects/shell/cmake-build-debug",
-		"source" : "/home/exception/CLionProjects/shell"
+		"build" : "/home/exception/K-Shell/cmake-build-debug",
+		"source" : "/home/exception/K-Shell"
 	},
 	"version" : 
 	{

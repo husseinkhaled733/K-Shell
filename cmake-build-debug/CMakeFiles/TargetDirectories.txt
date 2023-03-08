@@ -1,3 +1,3 @@
-/home/exception/CLionProjects/shell/cmake-build-debug/CMakeFiles/shell.dir
-/home/exception/CLionProjects/shell/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/exception/CLionProjects/shell/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/exception/K-Shell/cmake-build-debug/CMakeFiles/shell.dir
+/home/exception/K-Shell/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/exception/K-Shell/cmake-build-debug/CMakeFiles/rebuild_cache.dir

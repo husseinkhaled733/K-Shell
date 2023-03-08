@@ -1,3 +1,5 @@
 # ninja log v5
 0	60	1678188667846890975	CMakeFiles/shell.dir/main.c.o	255c7021e2ecb13e
 60	80	1678188667862896415	shell	ab574df3caabe70
+0	89	1678301090629282939	CMakeFiles/shell.dir/main.c.o	abcf6aae12a7bcde
+89	106	1678301090645282889	shell	ab574df3caabe70

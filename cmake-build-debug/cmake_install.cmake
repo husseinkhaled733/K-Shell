@@ -1,4 +1,4 @@
-# Install script for directory: /home/exception/CLionProjects/shell
+# Install script for directory: /home/exception/K-Shell
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/exception/CLionProjects/shell/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/exception/K-Shell/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
