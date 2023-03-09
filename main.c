@@ -18,7 +18,7 @@ int export(char **parameters);
 void on_child_exit(int sig);
 void write_to_log_file(char *phrase);
 void setup_environment();
-char **evaluate_expression(char **parameters,int *background);
+char **evaluate_expression(char **parameters,int *background);//to return correct expression in case of export and background processes
 
 #define MAX_ARGS 100
 
@@ -34,7 +34,7 @@ void write_to_log_file(char *phrase){
     fclose(ptr);
 }
 
-
+//for zombie processes
 void on_child_exit(int sig){
     int status;
     pid_t pid;
@@ -191,13 +191,19 @@ void shell(){
         if (parameters == NULL) {
             continue;
         }
+
+        //exit
         if(strcmp(command[0],"exit")==0){
             exit(0);
         }
 
+
+        //shell built_in
         if(strcmp(command[0],"cd")==0||strcmp(command[0],"export")==0||strcmp(command[0],"echo")==0){
             execute_shell_builtin(command);
         }
+
+        //executable command
         else{
             execute_command(command,background);
         }
@@ -260,6 +266,8 @@ void execute_command(char **parameters,int background){
     }
 }
 
+
+//setting current directory as home
 void setup_environment() {
     char* p[]={"cd",NULL};
     cd(p);
